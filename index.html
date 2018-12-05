@@ -6,15 +6,22 @@
 	  
     <p> I'm under construction right now. Please wait for updates :) 
 	  
-	  *Assuming SquidJar_1.jar and SquidApp.class are your file and applet-class*
-<embed 
-id="SquidJar_1"
-type="application/x-java-applet;version=1.6"
-width="999" height="999" 
-archive="SquidJar.jar"
-code="SquidApp.class"
-pluginspage="http://java.com/download/"
-myParam="YourParams" />
+<!-- try the applet tag instead -->
+ <applet src="SquidJar_1.jar" code="https://github.com/Squidoodle/Squidoodle.github.io/blob/master/SquidJar_1.jar</applet>
+
+ <!-- <section id="Squidoodle">
+        <script>
+            var attributes = {codebase: 'cubesorter/me/nrubin29/cubesorter/',
+                //How is this even parsed?
+                code: 'SquidApp.class',
+                archive: 'SquidJar_1.jar',
+                width: '800',
+                height: '600'};
+            var parameters = {java_arguments: '-Xmx256m'}; // customize per your needs
+            var version = '1.5'; // JDK version
+            deployJava.runApplet(attributes, parameters, version);
+        </script>
+ </section> -->
 	  
 	  
 	  
